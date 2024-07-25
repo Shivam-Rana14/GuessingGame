@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+body {
+  background-color: rgba(0, 0, 0, 0.853);
+  font-family: "Press Start 2P", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: 700px;
+}
+
+.guess {
+  background-color: transparent;
+  border: none;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guess input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  border: none;
+  height: 80px;
+  width: 80px;
+  font-size: 35px;
+}
+.guess input:focus {
+  border: none;
+  outline: none;
+  font-size: 35px;
+}
+.num {
+  font-size: 35px;
+  font-family: "Press Start 2P";
+}
+
+.again_btn {
+  height: 40px;
+  width: 140px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 200px;
+  font-size: large;
+  font-family: "Press Start 2P";
+  cursor: pointer;
+}
+
+.check_btn {
+  height: 40px;
+  width: 140px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 200px;
+  font-size: large;
+  font-family: "Press Start 2P";
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.guide {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 380px;
+  font-size: large;
+  color: white;
+}
+
+.white-line {
+  margin-top: 60px;
+  display: flex;
+  background-color: rgb(247, 241, 241);
+  height: 4px;
+  z-index: 1;
+}
+
+.head h2 {
+  background-color: white;
+  width: fit-content;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.head {
+  margin-top: -55px;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+.guess {
+  display: flex;
+  width: fit-content;
+  border: 4px white ridge;
+  padding: 1px 60px 1px 60px;
+}
+
+.guess h2 {
+  color: white;
+  font-size: 40px;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+  color: white;
+}
+
+.status {
+  color: white;
+  margin-top: 30px;
+}
+
+.status_bar {
+  justify-content: space-around;
+  display: flex;
+}
+
+.check {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.score {
+  display: flex;
+}
+
+p {
+  color: white;
+}
